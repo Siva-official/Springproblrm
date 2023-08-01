@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  
+    <bean id="operation" class="com.siva.secondapp.Operation">
+    <constructor-arg index="0" value="1000"/>
+		<constructor-arg index="1" value="2000"/>
+		 </bean>
+		<bean id="book" class="com.siva.secondapp.Book">
+		<property name="id" value = "123"/>
+		<property name="name" value = "Spring"/>
+				<property name="author" value = "mr.ratan"/>
+		
+		
+	</bean>
+    
+   
+    
+    
+    
+  
+
+</beans>
+

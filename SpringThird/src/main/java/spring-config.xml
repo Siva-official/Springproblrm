@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="product" class="com.siva.Thirdapp.Product">
+		<property name="id" value="12" />
+		<property name="pname" value="I phone" />
+		<property name="pcost" value="75000" />
+		<property name="quantity" value="3" />
+	</bean>
+
+	<bean id="customer" class="com.siva.Thirdapp.Customer">
+		<constructor-arg index="0" value="mr" />
+		<constructor-arg index="1" value="siva" />
+		<constructor-arg index="2" value="siva@gmail.com" />
+		<constructor-arg index="3" value="6304334185" />
+
+	</bean>
+
+
+</beans>
+
